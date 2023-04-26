@@ -11,7 +11,7 @@
 #
 
 # Modify default IP
-#sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.2.99/g' package/base-files/files/bin/config_generate
 
 kernel_ver=$(grep -Po '^KERNEL_PATCHVER=\K\S+' target/linux/x86/Makefile)
 # 519 问题很多，回退到 515
