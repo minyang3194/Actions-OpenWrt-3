@@ -25,7 +25,7 @@ on:
       envOverride:
         description: 'key=value,key2=value2'
         required: false
-        default: ''
+        default: 'key2=value2'
       repo_json:
         description: 'json raw string about repo to use'
         required: false
